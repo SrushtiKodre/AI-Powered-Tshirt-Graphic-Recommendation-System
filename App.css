@@ -1,0 +1,70 @@
+.color-picker {
+  margin: 20px;
+  font-size: 16px;
+}
+
+.color-picker select {
+  padding: 6px 10px;
+  margin-left: 10px;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.controls {
+  margin: 20px;
+}
+
+.controls input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 8px;
+}
+
+.controls button {
+  padding: 10px 16px;
+}
+
+.result {
+  margin-top: 24px;
+}
+
+/* T-shirt mockup container */
+.tshirt-mockup {
+  position: relative;
+  display: inline-block;
+  width: 360px;
+  height: 420px;
+  overflow: hidden; /* prevents graphic overflow */
+}
+
+/* Base T-shirt image */
+.tshirt {
+  width: 360px;
+  height: auto;
+  pointer-events: none;
+  display: block;
+}
+
+/* Centered chest design */
+.design {
+  position: absolute;
+
+  /* ✔ Chest placement (NOT neck) */
+  top: 200px;
+
+  /* ✔ Center horizontally */
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* ✔ Proper chest size (35% of shirt width) */
+  width: 130px;
+
+  opacity: 0.95;
+  pointer-events: none;
+}
+
